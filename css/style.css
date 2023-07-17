@@ -177,10 +177,11 @@ section {
 }
 
 form .form-control {
+    border: 0.9px solid #ffffff;
     border-radius: 0;
     background: transparent;
     color: #fff;
-    border-color: rgba(255, 255, 255, 0.5);
+    
 }
 
 form .form-control:focus {
