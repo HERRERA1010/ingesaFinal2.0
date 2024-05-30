@@ -31,6 +31,12 @@ h6 {
     font-weight: 400 !important;
 }
 
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight:900;
+  }
+  
+
 a {
     text-decoration: none;
     transition: all 0.4s ease;
@@ -49,6 +55,10 @@ section {
     position: relative;
 }
 
+.border-radius{
+    border-radius: 100px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -64,6 +74,11 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.background-azul{
+    background: rgb(28,56,121);
+background: radial-gradient(circle, rgba(28,56,121,1) 0%, rgba(0,0,0,0.9668242296918768) 100%);
 }
 
 .hero-section {
